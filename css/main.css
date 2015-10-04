@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+}
+
+nav{
+color: grey;
+
+}
+
+ul{
+	list-style-type: none;
+
+}
+
+li{
+padding: 1em;
+float: right;
+}
+
+.box{
+	position: absolute;
+	background-color: lightgrey;
+	padding: 5%;
+	margin:15%;
+
+}
+
+.about-me {
+    position: fixed;
+    background-color: black;
+    color:grey;
+    padding: 5%;
+}
+
+.pieces{
+	  position: fixed;
+    background-color: lightgrey;
+    color:grey;
+    padding: 5%;
+}
