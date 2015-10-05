@@ -1,5 +1,4 @@
 body{
-	margin: 0;
 }
 
 nav{
@@ -15,26 +14,33 @@ ul{
 li{
 padding: 1em;
 float: right;
+text-decoration: underline;
+background-color: lightgrey;
 }
 
+h2{
+	color:white;
+}
 .box{
+	display: inline-block;
+}
+/*.box{
 	position: absolute;
 	background-color: lightgrey;
 	padding: 5%;
 	margin:15%;
 
-}
+}*/
 
 .about-me {
-    position: fixed;
     background-color: black;
     color:grey;
     padding: 5%;
 }
 
 .pieces{
-	  position: fixed;
     background-color: lightgrey;
     color:grey;
     padding: 5%;
 }
+
