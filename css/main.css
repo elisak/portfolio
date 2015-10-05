@@ -54,10 +54,14 @@ h2{
     color:grey;
     padding: 5%;
 }
+.artwork{
+  background-color: lightgrey;
+
+}
 
 .pieces{
-    background-color: lightgrey;
-    color:grey;
-    padding: 5%;
+/*  background-color: lightgrey;
+*/  color:grey;
+  float: left;
 }
 
