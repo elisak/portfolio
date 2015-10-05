@@ -62,12 +62,19 @@ h2{
 }
 .artwork{
   background-color: lightgrey;
+  margin: 1em;
+
 
 }
 
-.pieces{
+.project{
 /*  background-color: lightgrey;
 */  color:grey;
   float: left;
+	display: inline-block;
 }
 
+.butts{
+	overflow: hidden;
+	clear: both;
+}
