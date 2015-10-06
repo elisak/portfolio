@@ -37,7 +37,7 @@ background-color: lightgrey;
 }
 
 .me{
-	border-radius: 250px;
+	border-radius: 200px;
 	margin-bottom: 1.25em;
 }
 
@@ -62,8 +62,8 @@ h2{
 }
 .artwork{
   background-color: lightgrey;
-  margin: 1em;
-
+	float:left;
+	padding: 1em;
 
 }
 
@@ -75,6 +75,11 @@ h2{
 }
 
 .butts{
-	overflow: hidden;
-	clear: both;
+/*	overflow: hidden;
+	clear: both;*/
+	padding: 1em;
+}
+
+.butts-2{
+	background-color: grey;
 }
