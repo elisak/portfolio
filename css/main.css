@@ -50,10 +50,6 @@ list-style-type: none;
 text-align: center;
 }
 
-.me{
-	border-radius: 200px;
-	margin-bottom: 1.25em;
-}
 
 h2{
 	color:grey;
@@ -75,12 +71,26 @@ h2{
 
 }*/
 
+.me{
+	border-radius: 200px;
+	float: left;
+}
+
 .about-me {
 	background-image: url("../images/tile1.png");
 	color:grey;
-	padding: 5%;
+	padding: 2em;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	display: block;
 	background-attachment: fixed;
 }
+
+.me-info{
+	padding:.50em;
+}
+
+
 .artwork{
   background-color: lightgrey;
 	float:left;
@@ -97,7 +107,8 @@ h2{
 }
 
 .footer{
-/*	overflow: hidden;
-	clear: both;*/
 	padding: 1em;
+	overflow: hidden;
+	clear: both
+
 }
