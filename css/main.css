@@ -20,9 +20,21 @@ body{
 }
 
 nav{
-color: grey;
-
+	color: grey;
+	display: inline-block;
 }
+
+.nav a{
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+a,
+a:active,
+a:hover{
+}
+
 
 ul{
 	list-style-type: none;
@@ -32,8 +44,10 @@ ul{
 li{
 padding: 1em;
 float: right;
-text-decoration: underline;
-background-color: lightgrey;
+font-weight: bold;
+text-transform: uppercase;
+list-style-type: none;
+text-align: center;
 }
 
 .me{
@@ -44,8 +58,14 @@ background-color: lightgrey;
 h2{
 	color:grey;
 }
-.box{
-	display: inline-block;
+
+.banner{
+	background-image: url("../images/tree_bark.png");
+/*	padding:150px;
+*/	padding-left: 20px;
+	padding-bottom: 30px;
+	display: block;
+	background-attachment: fixed;
 }
 /*.box{
 	position: absolute;
@@ -56,9 +76,10 @@ h2{
 }*/
 
 .about-me {
-    background-color: black;
-    color:grey;
-    padding: 5%;
+	background-image: url("../images/tile1.png");
+	color:grey;
+	padding: 5%;
+	background-attachment: fixed;
 }
 .artwork{
   background-color: lightgrey;
@@ -72,14 +93,11 @@ h2{
 */  color:grey;
   float: left;
 	display: inline-block;
+	margin-bottom: 1em;
 }
 
-.butts{
+.footer{
 /*	overflow: hidden;
 	clear: both;*/
 	padding: 1em;
-}
-
-.butts-2{
-	background-color: grey;
 }
