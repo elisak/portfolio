@@ -30,6 +30,12 @@ font-weight: bold;
 text-transform: uppercase;
 }
 
+.logo {
+  position: relative;
+  margin-top: 1em;
+  width: 100px;
+}
+
 a,
 a:active,
 a:hover{
@@ -107,6 +113,19 @@ h2{
 	display: inline-block;
 	margin-bottom: 1em;
 }
+
+.img-blur{
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.img-blur:hover{
+	-webkit-filter:blur(10px);
+}
+
 
 .footer{
 	padding: 1em;
