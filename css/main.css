@@ -61,6 +61,8 @@ h2{
 	color:grey;
 }
 
+
+
 .banner{
 	background-image: url("../images/tree_bark.png");
 /*	padding:150px;
@@ -78,7 +80,6 @@ h2{
 }*/
 
 .me{
-	border-radius: 200px;
 	float: left;
 }
 
@@ -111,7 +112,8 @@ h2{
 */  color:grey;
   float: left;
 	display: inline-block;
-	margin-bottom: 1em;
+	margin-left: 3.5em;
+	margin-bottom:1.5em
 }
 
 .img-blur{
