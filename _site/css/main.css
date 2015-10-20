@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-@viewport{ width: device-width; scale: 1;}
+@-ms-@viewport{ width: device-width; scale: 1;}
+@-o-@viewport{ width: device-width; scale: 1;}
+@-webkit-@viewport{ width: device-width; scale: 1;}
+@viewport{ width: device-width; scale: 1;}
+
+html{
+	@-moz-text-size-adjust:100%;
+	@-ms-text-size-adjust:100%;
+	@-o-text-size-adjust:100%;
+	@-webkit-text-size-adjust:100%;
+	text-size-adjust:100%;
+}
+
+body{
+	margin:0;
+}
+
+nav{
+	display: inline-block;
+	position: fixed;
+	margin-left: -1em;
+}
+
+.nav a{
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.logo {
+  position: relative;
+  margin-top: 3.5em;
+	margin-left: 35%;
+  width: 100px;
+}
+
+a,
+a:active,
+a:hover{
+}
+
+
+ul{
+	list-style-type: none;
+
+}
+
+li{
+padding: 1em;
+float: right;
+font-weight: bold;
+text-transform: uppercase;
+list-style-type: none;
+text-align: center;
+}
+
+
+h2{
+	color:grey;
+}
+
+
+
+.banner{
+	background-image: url("../images/tree_bark.png");
+/*	padding:150px;
+*/	padding-left: 20px;
+	padding-bottom: 30px;
+	display: block;
+	background-attachment: fixed;
+}
+/*.box{
+	position: absolute;
+	background-color: lightgrey;
+	padding: 5%;
+	margin:15%;
+
+}*/
+
+.me{
+	float: left;
+	width:50%;
+}
+
+.about-me {
+	background-image: url("../images/tile1.png");
+	color:grey;
+	padding: 2em;
+	padding-left: 20px;
+	padding-bottom: 20%;
+	display: block;
+	background-attachment: fixed;
+}
+
+.me-info{
+	padding:.50em;
+}
+
+
+.artwork{
+  background-color: lightgrey;
+	float:left;
+	padding: 1em;
+	width:100%;
+/*	margin-top: 1em;
+*/
+}
+
+.project{
+/*  background-color: lightgrey;
+*/  color:grey;
+  float: left;
+	display: inline-block;
+	margin-left: 3.5em;
+	margin-bottom:1.5em
+}
+
+.piece{
+	width:100%;
+}
+
+.img-blur{
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.img-blur:hover{
+	-webkit-filter:blur(3px);
+}
+
+
+.footer{
+	padding: 1em;
+	overflow: hidden;
+	clear: both
+
+}
