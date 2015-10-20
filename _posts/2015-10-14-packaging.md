@@ -1,11 +1,10 @@
 ---
-layout: portfolio
-img: images/line-work.png
+img: images/packaging.jpg
 description: scanned images, and did touch up in Photoshop, than combined other images to create a CD cover for a TV Show.
-title: The Originals CD Cover
+title: Duracell
 tags: Photoshop, Indesign
 category: artwork
-meta: WHERES MY COVER?
+meta: WHERE'S MY BETTERY?
 ---
 
 
