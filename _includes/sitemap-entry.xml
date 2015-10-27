@@ -1,0 +1,12 @@
+
+   <url>
+
+      <loc>http://elisak.github.io/portfolio/{{site.baseurl}}{{include.entry.url}}</loc>
+      {% if include.entry.change.freq %}
+	      <changefreq>{{include.entry.changefreq}}</changefreq>
+			{% endif %}
+			{% if include.entry.priority %}
+	      <priority>{{include.entry.priority}}</priority>
+			{% endif %}
+   </url>
+
