@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /img
+Sitemap: https://elisak.github.io/portfolio/sitemap.xml

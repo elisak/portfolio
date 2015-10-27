@@ -1,0 +1,13 @@
+/*TEAM*/
+Name: Elisa Koon
+Site: http://elisak.github.io/portfolio
+Twitter:@elisakoon
+Location: Ottawa, Ontario
+
+/*Thanks*/
+Name: Thomas Bradley
+
+/* SITE */
+last update: 2015/10/27
+Standard: HTML5, CSS3
+Software: Sublime Text, Github
