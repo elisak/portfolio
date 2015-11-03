@@ -2,7 +2,7 @@
 
 /*TEAM*/
 Name: Elisa Koon
-Site: http://elisak.github.io/portfolio
+Site: https://elisak.github.io/portfolio
 Twitter:@elisakoon
 Location: Ottawa, Ontario
 
