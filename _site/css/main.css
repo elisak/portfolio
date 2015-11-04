@@ -13,6 +13,7 @@ html{
 	@-o-text-size-adjust:100%;
 	@-webkit-text-size-adjust:100%;
 	text-size-adjust:100%;
+	overflow-x:hidden;
 }
 
 body{
@@ -63,13 +64,15 @@ h2{
 	color:grey;
 }
 
-
+header{
+/*	background-image: url("../images/banner.jpg");
+*/	padding-bottom: 30px;
+	width:100%;
+}
 
 .banner{
-	background-image: url("../images/airport.psd");
 /*	padding:150px;
 */	padding-left: 20px;
-	padding-bottom: 30px;
 	display: block;
 	background-attachment: fixed;
 }
@@ -87,7 +90,8 @@ h2{
 }
 
 .about-me {
-	background-image: url("../images/tile1.png");
+	background-image: url("../images/banner.jpg");
+	width:100%;
 	color:grey;
 	padding: 2em;
 	padding-left: 20px;
@@ -137,7 +141,7 @@ h2{
 
 
 .footer{
-	padding: 1em;
+	padding: 1.5em;
 	overflow: hidden;
 	clear: both
 
