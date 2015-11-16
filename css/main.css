@@ -21,8 +21,33 @@ body{
 }
 
 /*Top nav header area*/
+.hide-text{
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
 
-nav{
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display:block;
+	height:50px;
+	width:30px;
+	position:absolute;
+	top:65px;
+	right:5%;
+	background: url(../images/toggle.svg);
+}
+
+.nav-top{
+	display: block;
+}
+
+.nav-btn[data-state="active"]{
+	background:url(../images/toggle.svg);
+}
+
+.nav{
 	display: inline-block;
 	position: fixed;
 	text-align: center;
