@@ -25,7 +25,8 @@ body{
 nav{
 	display: inline-block;
 	position: fixed;
-	margin-left: -1em;
+	text-align: center;
+	margin-top: 15em;
 }
 
 .nav a{
@@ -33,6 +34,9 @@ nav{
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+/*toggle nav effects*/
+
 
 .logo {
   position: absolute;
@@ -45,6 +49,9 @@ nav{
 a,
 a:active,
 a:hover{
+	color:pink;
+	text-decoration: none;
+	font-size: 2em;
 }
 
 
