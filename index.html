@@ -6,23 +6,22 @@ priority: 1.0
 ---
 
 
-	<section class="about-me unit-m-1 unit-l-1">
-		<a name="aboutme"></a>
+	<section class="about-me">
 
-		<img class="me unit-xs-1 unit-m-1-3 unit-l-1-4" src="images/profile.jpg">
+	<a name="aboutme"></a>
 
-		<div class=" me-info unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-pull-m-1-2 unit-l-centered" alt="image of me, with some information at the bottom.">
+	<img class="me  unit-xs-1 unit-m-1-2 unit-l-1-3" src="images/profile.jpg">
 
-			<h2 class="yotta">Elisa Koon</h2>
+	<div class=" me-info gutter-quarter unit-xs-1-2 unit-s-1-2 unit-s-2-3 unit-m-1-2 unit-l-1-2 unit-pull-m-1-2 unit-l-centered" alt="image of me, with some information at the bottom.">
 
+	<h2 class="yotta">Elisa Koon</h2>
 			<p class=" kilo unit-pull-m-1-2 unit-l-centered">Name: Elisa Koon</p>
 			<p>Location: Canada</p>
 			<h4>What About Me?</h4>
 			<p>Just a girl who grew up in the suburbs, didn't have much to do but be creative and use things that were available. I would just make things when ideas come to me. Which brought me here now. I am currently a student interested in advertising and branding. I love being creative and solving problems.</p>
 			<h4>Into:</h4>
 			<p>Advertising, "Because they sell things that people don't want."</p>
-
-		</div>
+	</div>
 	</section>
 
 	<!-- next section -->
@@ -56,9 +55,10 @@ priority: 1.0
 
 			<li class="project">
 
-				<img class="img-blur piece" src="{{portfolio.img}}">
+				<img class="img-blur piece" src="{{portfolio.img}}" alt="intro of my work for display">
 
-				<a href="{{site.baseurl/layouts}}">{{portfolio.title}}</a>
+				<a href="{{site.baseurl/../layouts.html}}">{{portfolio.title}}</a>
+
 
 				<p>{{portfolio.meta}}</p>
 

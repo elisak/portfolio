@@ -18,9 +18,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,500,700' rel='stylesheet' type='text/css'>
 
 	<!-- favicons and icons -->
-	<link rel="icon" type="image/png" href="../images/favicomatic/favicon-32x32.png" sizes="32x32" />
-
-	<link rel="icon" type="image/png" href="../images/favicomatic/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="../images/favicomatic/favicon.png"  />
+<!--
+	<link rel="icon" type="image/png" href="../images/favicomatic/favicon-32x32.png" sizes="32x32" /> -->
 
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -38,14 +38,14 @@
     	<nav id="menu">
 
     		<input type="checkbox" id="toggle-nav"/>
-    		<label id="toggle-nav-box" for="toggle-nav"><i class="icon-reorder"></i></label>
+    		<label id="toggle-nav-box" for="toggle-nav"><span class="icon-reorder"></span></label>
 
     		<div class="box">
 	    		<ul>
-	    			<li><a href="{{site.baseurl}}/#home"><i class="icon-home"></i> home</a></li>
-	    			<li><a href="{{site.baseurl}}/#aboutme"><i class="icon-file-alt"></i> about</a></li>
-	    			<li><a href="{{site.baseurl}}/#portfolio"><i class="icon-copy"></i> work</a></li>
-	    			<li><a href="{{site.baseurl}}/#contact"><i class="icon-envelope"></i> contact</a></li>
+	    			<li><a href="{{site.baseurl}}/#home"><span class="icon-home"></span> home</a></li>
+	    			<li><a href="{{site.baseurl}}/#aboutme"><span class="icon-file-alt"></span> about</a></li>
+	    			<li><a href="{{site.baseurl}}/#portfolio"><span class="icon-copy"></span> work</a></li>
+	    			<li><a href="{{site.baseurl}}/#contact"><span class="icon-envelope"></span> contact</a></li>
 	    		</ul>
     		</div>
 
@@ -53,12 +53,14 @@
 	</div>
 
 <!-- 		<h1>Elisa Koon</h1>-->
-	<img class="logo" src="images/logo.svg">
+	<img class="logo" src="images/logo.svg" alt="Wordmark of my name, Elisa Koon">
 </header>
 
 	<main>
 		{{content}}
 	</main>
+
+<a class="center unit-offset-s-1-2 " href="{{site.baseurl}}/#home">Back to Top</a>
 
 <footer class="footer unit-m-1 unit-l-1">
 
