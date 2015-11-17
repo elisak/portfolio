@@ -1,0 +1,19 @@
+---
+layout: default
+page: layouts
+title: Pieces of work which are related to layouts
+meta: layouts that are related to typography
+priority: 1.0
+---
+		<ul>
+			<!-- portfolio = layout site.post = _posts/  -->
+		{% for portfolio in site.posts %}
+			<div class="project unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-4">
+			<li class="project">
+				<img class="img-blur piece" src="{{portfolio.img}}">
+				<a href="">{{portfolio.page}}</a>
+				<p>{{portfolio.meta}}</p>
+				</li>
+			</div>
+			{% endfor %}
+		</ul>

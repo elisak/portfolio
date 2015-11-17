@@ -4,7 +4,7 @@ description: scanned images, and did touch up in Photoshop, than combined other 
 title: Packaging
 tags: Photoshop, Indesign, Illustrator
 category: artwork
-meta: WHERE'S MY BETTERY?
+meta: WHERE'S MY BATTERY?
 ---
 
 

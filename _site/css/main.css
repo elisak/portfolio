@@ -138,8 +138,6 @@ li {
 	color: rgba(0,0,0,0.8);
 }
 
-
-
 .logo {
   position: absolute;
   margin-top: 10%;
@@ -151,7 +149,7 @@ li {
 a,
 a:active,
 a:hover{
-	color:pink;
+	color:#7356A9;
 	text-decoration: none;
 	font-size: 2em;
 }
@@ -171,11 +169,6 @@ list-style-type: none;
 text-align: center;
 }
 
-
-h2{
-	color:grey;
-}
-
 header{
 	padding-bottom: 30px;
 	width:100%;
@@ -189,6 +182,8 @@ header{
 	background-attachment: fixed;
 }
 
+/*about me content*/
+
 .box{
 	position: absolute;
 	background-color: lightgrey;
@@ -196,20 +191,21 @@ header{
 
 }
 
+h2{
+	color:grey;
+}
+
 .me{
 	float: left;
 	width:50%;
-}
-.blur{
-	background:url(../images/blur.jpg);
 }
 
 .about-me {
 	width:100%;
 	color:grey;
-	padding: 2em;
-	padding-left: 20px;
-	padding-bottom: 20%;
+/*	padding: 2em;
+*//*	padding-left: 20px;
+*/	padding-bottom: 20%;
 	display: block;
 	background-attachment: fixed;
 }
@@ -219,23 +215,25 @@ header{
 /*	padding-left: 1em;
 */}
 
+/*porfolio contents*/
 
 .artwork{
-/*  background-color: lightgrey;
-*/	float:left;
-	padding: 1em;
-	width:100%;
-	margin-top: 1em;
+  background-color: lightgrey;
+  float: left;
+  /* padding: 1em; */
+  width: 100%;
+  margin-top: 1em;
 
 }
 
 .project{
-	background-color: lightgrey;
-  color:grey;
+  background-color: lightgrey;
+  color: rgba(50, 27, 84, 0.84);
   float: left;
-	display: inline-block;
-/*	margin-left: 3.5em;
-*/	margin-bottom:1.5em
+  display: inline-block;
+  /* margin-left: 3.5em; */
+  margin-bottom: 1.5em;
+  margin-right: 2.5em;
 }
 
 .piece{
@@ -254,6 +252,7 @@ header{
 	-webkit-filter:blur(3px);
 }
 
+/*footer-contact contents*/
 
 .footer{
 	padding: 1.5em;
