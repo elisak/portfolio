@@ -7,19 +7,30 @@
   <title>{% if page.title %}{{page.title}} • {% endif %}Elisa Koon</title>
 
   <meta name="description" content=" A glimips about me and my portfolio pieces.">
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/type.css">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+
+	<!-- favicons and icons -->
+	<link rel="icon" type="image/png" href="../images/favicomatic/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="../images/favicomatic/favicon-16x16.png" sizes="16x16" />
+
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
 </head>
 
 
 <body class="">
 
 <header class="banner">
+
 <!-- TOGGLE NAV -->
-	<span>
+<!-- 	<section>
 		<a href="#nav" class="nav-btn hide-text">Navigation</a>
 		<nav class="nav nav-top unit-xs-2-3 unit-s-1 unit-m-1 unit-offset-l-1" data-state="collapsed">
 
@@ -31,7 +42,26 @@
 
 		</nav>
 
-	</span>
+	</section> -->
+
+	<div class="container">
+    	<nav id="menu">
+
+    		<input type="checkbox" id="toggle-nav"/>
+    		<label id="toggle-nav-box" for="toggle-nav"><i class="icon-reorder"></i></label>
+
+    		<div class="box">
+	    		<ul>
+	    			<li><a href="#home"><i class="icon-home"></i> home</a></li>
+	    			<li><a href="#aboutme"><i class="icon-file-alt"></i> about</a></li>
+	    			<li><a href="#portfolio"><i class="icon-copy"></i> work</a></li>
+	    			<li><a href="#contact"><i class="icon-envelope"></i> contact</a></li>
+	    		</ul>
+    		</div>
+
+    	</nav>
+	</div>
+
 <!-- 		<h1>Elisa Koon</h1>-->
 	<img class="logo" src="images/logo.svg">
 </header>
@@ -45,12 +75,17 @@
 	<h2>Contact</h2>
 	<p>Follow me on...</p>
 	<ul class="links">
-		<li><a href="https://twitter.com/elisakoon">Twitter</a></li>
-		<li><a href="https://www.behance.net/elisakoon">Behance</a></li>
-		<li><a href="https://vimeo.com/user24343158">Vimeo</a></li>
+		<li><a href="https://twitter.com/elisakoon"><i class="fa fa-twitter"></i></a></li>
+		<li><a href="https://www.behance.net/elisakoon"><i class="fa fa-behance"></i></a></li>
+		<li><a href="https://vimeo.com/user24343158"><i class="fa fa-vimeo"></i></a></li>
 	</ul>
 	<a href="hey@elisakoon.com">E-mail</a>
+
+	<p>&#169; Copyright 2015</p>
+
+
 </footer>
+
 
 </body>
 </html>
