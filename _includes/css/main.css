@@ -50,15 +50,14 @@ li {
 }
 
 #menu .box {
-/*    position: fixed;
-*/    text-align: center;
-    overflow: hidden;
-    opacity: 0;
-    opacity: 0;
-    left: 0px;
-    width: 100%;
-    top: 170px;
-    background: rgba(7, 10, 66, 0.8);
+	text-align: center;
+  overflow: hidden;
+  opacity: 0;
+  opacity: 0;
+  left: 0px;
+  width: 100%;
+  top: 170px;
+  background: rgba(7, 10, 66, 0.8);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -268,15 +267,11 @@ padding: 2em;
 }
 
 .links{
-/*	margin-left: 1em;
 */	display: -webkit-inline-box;
 }
 
 .icons{
   color: #959BEC;
-/*  background-color: #C5C5D0;
-  width: 80px;
-  height: 80px;
-  border-radius: 80px;*/
+
 }
 
