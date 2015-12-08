@@ -179,7 +179,7 @@ header{
 }
 
 .banner{
-	background-image: url("../images/banner-2.jpg") ;
+	background-image: url("../images/banner-2.jpg") no-repeat ;
 	height: 700px;
 	padding-bottom:;
 	display: block;
