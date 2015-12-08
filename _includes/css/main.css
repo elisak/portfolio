@@ -269,7 +269,10 @@ padding: 2em;
 /*	display: -webkit-inline-box;
 */
 margin: .5em;
-background-color: purple;
+}
+
+.links img{
+	width:50px;
 }
 
 .links li{
