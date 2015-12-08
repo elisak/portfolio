@@ -223,7 +223,7 @@ padding: 2em;
 /*porfolio contents*/
 
 .artwork{
-  background-color: lightgrey;
+  background-color: #9B8EAC;
   float: left;
   /* padding: 1em; */
   width: 100%;
@@ -232,7 +232,6 @@ padding: 2em;
 }
 
 .project{
-  background-color: lightgrey;
   color: rgba(50, 27, 84, 0.84);
   float: left;
   display: inline-block;
