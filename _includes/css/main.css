@@ -179,8 +179,7 @@ header{
 }
 
 .banner{
-	background-image: url("../images/banner-2.jpg");
-	background-repeat: no-repeat;
+	background: url("../images/banner-2.jpg") no-repeat;
 	height: 700px;
 	padding-bottom:;
 	display: block;
@@ -268,11 +267,11 @@ padding: 2em;
 }
 
 .links{
-	display: -webkit-inline-box;
+/*	display: -webkit-inline-box;
+*/
+margin: .5em;
+background-color: purple;
 }
 
-.icons{
-  color: #959BEC;
 
-}
 
