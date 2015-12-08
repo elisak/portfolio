@@ -1,5 +1,5 @@
 ---
-img: images/casestudy-poster.jpg
+img: images/app.jpg
 description: User Experience app case study
 title: Design
 tags: Illustrator
