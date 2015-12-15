@@ -32,71 +32,23 @@ priority: 1.0
 
 {% for portfolio in site.posts %}
 
-<ul id="" class="unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-
-	<li>
-
-	<a href="{{site.baseurl}}/#portfolio" data-largesrc="{{portfolio.img}}" data-title="{{portfolio.title}}" data-description="{{portfolio.description}}">
-		<img class="unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3" src="{{portfolio.img}}" alt="img02"/>
-	</a>
-	</li>
-</ul>
-
-	<div class="unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-	<li class="">
-			<img  class="" src="{{portfolio.img}}" alt="imgages of past and recent work in different environments"/>
-	</li>
-	</div>
-
-
-	<div class="og-expander">
-		<div class="og-expander-inner">
-			<span class="og-close"></span>
-			<div class="og-fullimg">
-				<div class="og-loading"></div>
-<!-- 				<img src="{{portfolio.img}}">-->
-				</div>
-			<div class="og-details">
-				{{portfolio.title}}
-				{{portfolio.description}}
-			</div>
-		</div>
-	</div>
-
-
-{% endfor %}
-</div>
-
-
-		<!-- Old grid system
-
-		<ul id="og-grid" class="og-grid">-->
+		<ul>
 			<!-- portfolio = layout site.post = _posts/  -->
-			<!--
+
 		{% for portfolio in site.posts %}
-			<div class="project unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+			<div class="project unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-4">
 
 			<li class="project">
-				<a href="{{site.baseurl}}/" data-largsrc="{{portfolio.img}}" data-title="{{portfolio.title}}">
 
-				<img class="img-blur piece" src="{{portfolio.img}}" alt="intro of my work for display">
-				{{portfolio.title}}
+				<img class="img-blur piece" src="{{site.baseurl}}/{{portfolio.img}}">
 
-				</a>
+				<a href="">{{portfolio.title}}</a>
 
-
-				<p>{{portfolio.meta}}</p>
+				<p>{{portfolio.description}}</p>
 
 				</li>
 
 			</div>
-
 			{% endfor %}
 
 		</ul>
-
-	</div>
--->
-
-<!-- next section/ contact info -->
-
