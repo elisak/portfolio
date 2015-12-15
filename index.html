@@ -30,13 +30,13 @@ priority: 1.0
 		<a name="portfolio"></a>
 		<h2 class="zetta">Projects</h2>
 
-{% for portfolio in site.posts %}
+
 
 		<ul>
 			<!-- portfolio = layout site.post = _posts/  -->
 
 		{% for portfolio in site.posts %}
-			<div class="project unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-4">
+			<div class="project unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-2">
 
 			<li class="project">
 
@@ -49,6 +49,6 @@ priority: 1.0
 				</li>
 
 			</div>
-			{% endfor %}
+		{% endfor %}
 
 		</ul>
