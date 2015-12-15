@@ -218,6 +218,13 @@ padding: 2em;
 .me-info{
 	margin:0;
 	float:left;
+}
+
+@media only screen and (min-width: 38em) {
+.me-info{
+	margin-left: 1em;
+}
+}
 
 /*	padding-left: 1em;
 */}
