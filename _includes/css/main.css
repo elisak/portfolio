@@ -198,8 +198,8 @@ header{
 
 h2{
 	color:rgba(7, 10, 66, 0.8);
-	text-align: center;
-}
+/*	text-align: center;
+*/}
 
 .me{
 	float: left;
