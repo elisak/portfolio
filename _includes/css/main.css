@@ -285,8 +285,8 @@ margin: .5em;
 
 .og-grid {
 	list-style: none;
-	padding: 20px 0;
-	margin: 0 auto;
+/*	padding: 20px 0;
+*/	margin: 0 auto;
 	text-align: center;
 	width: 100%;
 }
