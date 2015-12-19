@@ -1,13 +1,9 @@
 ---
 img: images/content.jpg
-description: scanned images, and did touch up in Photoshop, than combined other images to create a CD cover for a TV Show.
-title: Packaging
-tags: Photoshop, Indesign, Illustrator
+description: Did a mock up with placments of some design work I have done in the past and recently. such as the bookcover, a workout app, a hair styling app, magazine cover, cd cover and a movie poster, which I used as a dvd cover.
+title: Mock-up
+tags: Photoshop
 category: artwork
 meta: WHERE'S MY STUFF?
 ---
 
-
-scanned images, and did touch up in Photoshop, than combined other images to create a CD cover for a TV Show.
-
-scanned images, and did touch up in Photoshop, than combined other images to create a CD cover for a TV Show.

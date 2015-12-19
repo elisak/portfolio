@@ -19,8 +19,8 @@ priority: 1.0
 			<p>Location: Canada</p>
 			<h4>What About Me?</h4>
 			<p>Just a girl who grew up in the suburbs, didn't have much to do but be creative and use things that were available. I would just make things when ideas come to me. Which brought me here now. I am currently a student interested in advertising and branding. I love being creative and solving problems.</p>
-			<h4>Into:</h4>
-			<p>Advertising, "Because they sell things that people don't want."</p>
+			<h4>Quote</h4>
+			<p> "We sell people stuff they don't want everyday—Sydney (Show: The Crazy Ones)"</p>
 	</div>
 	</section>
 
@@ -36,13 +36,17 @@ priority: 1.0
 			<!-- portfolio = layout site.post = _posts/  -->
 
 		{% for portfolio in site.posts %}
-			<li class="project  unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-2">
+			<li class="left project  unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-2">
 
 				<img class="img-blur piece" src="{{site.baseurl}}/{{portfolio.img}}">
 
 				<h3 class="title">{{portfolio.title}}</h3>
 
-				<p class="left">{{portfolio.description}}</p>
+				<h6 >{{portfolio.meta}}</h6>
+				<h6 class="label">Descrip:</h6>
+				<p >{{portfolio.description}}</p>
+				<h6 class="label">Programs:</h6>
+				<p >{{portfolio.tags}}</p>
 
 				</li>
 		{% endfor %}
