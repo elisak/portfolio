@@ -32,23 +32,19 @@ priority: 1.0
 
 
 
-		<ul>
+		<ul class="grid">
 			<!-- portfolio = layout site.post = _posts/  -->
 
 		{% for portfolio in site.posts %}
-			<div class="project unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-2">
-
-			<li class="project">
+			<li class="project  unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-2">
 
 				<img class="img-blur piece" src="{{site.baseurl}}/{{portfolio.img}}">
 
-				<a href="">{{portfolio.title}}</a>
+				<h3>{{portfolio.title}}</h3>
 
-				<p>{{portfolio.description}}</p>
+				<p class="">{{portfolio.description}}</p>
 
 				</li>
-
-			</div>
 		{% endfor %}
 
 		</ul>
