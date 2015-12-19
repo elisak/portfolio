@@ -44,14 +44,19 @@ li {
 	list-style: none;
 }
 
-.back-top{
+.pull{
     position: fixed;
-    top: 20em;
-    left: 25%;
-    color: #DADCDE;
-    line-height: 1em;
+    width: 3.5em;
+    margin-left: 85.5%;
+    top: 36em;
+
 }
 
+/*.back-top{
+    left: 25%;
+    z-index: 1;
+}
+*/
 
 .container {
 	margin: 0px 20% 0px 20%;
@@ -216,6 +221,7 @@ h2{
 
 .me{
 	float: left;
+	padding-left:1em;
 }
 
 .about-me {
