@@ -45,7 +45,11 @@ li {
 }
 
 .back-top{
-	position: relative;
+    position: fixed;
+    top: 20em;
+    left: 25%;
+    color: #DADCDE;
+    line-height: 1em;
 }
 
 
@@ -217,9 +221,9 @@ h2{
 .about-me {
 /*	width:100%;
 */	color:grey;
-padding: 2em;
+padding: 1em;
 /*	padding-left: 20px;
-*/	padding-bottom: 15%;
+*//*	padding-bottom: 15%;*/
 	display: inline-block;
 	background-attachment: fixed;
 }
@@ -273,6 +277,10 @@ text-align: left;
 color: rgba(56, 88, 187, 0.84);
 }
 
+.label{
+	color:black;
+}
+
 .left{
 	text-align: left;
 }
@@ -294,7 +302,8 @@ color: rgba(56, 88, 187, 0.84);
 .footer{
 	padding: 1.5em;
 	overflow: hidden;
-	clear: both
+	clear: both;
+	background-color:rgb(56, 48, 90);
 
 }
 
