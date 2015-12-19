@@ -1,12 +1,22 @@
-.huge{
+.giant{
+	font-size: 8em;
     position: absolute;
-    color: Black;
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5em;
-    line-height: 1em;
-    top: 10em;
-    margin: 1em;
-    width: 50%
+    /* margin-top: 0em; */
+    margin-left: 23%;
+    color: white;
+
+}
+
+.huge{
+	position: absolute;
+  color: #926969;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  line-height: 1em;
+  top: 9.5em;
+  margin-left: 25%;
+  width: 50%;
+  border: 1em;
 }
 
 
@@ -19,8 +29,8 @@
 
 .watermark{
 	position: absolute;
-  margin-left: 25%;
-  width: 50%;
+  margin-left: 60%;
+  width: 40%;
   max-width: 50em;
   max-height: 300px;
 }
