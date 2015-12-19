@@ -1,9 +1,11 @@
-body{
-	background: url("../images/jelly-background.jpg") no-repeat ;
+h1{
+	position: absolute;
+	color: white;
+	font-family: 'Playfair Display', serif;
+
 
 }
 
-.oops{
-	background: url("../images/jelly-background.jpg") no-repeat ;
-
-}
+.background{
+	background: url("/images/jelly.jpg") no-repeat ;
+	}

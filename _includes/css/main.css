@@ -241,6 +241,9 @@ padding: 2em;
 /*porfolio contents*/
 
 .artwork{
+		background: url("../images/banner-2.jpg") no-repeat ;
+	background-size: cover;
+	background-attachment: fixed;
 
 /*  background-color: #9B8EAC;
 */  float: left;
@@ -263,6 +266,15 @@ padding: 2em;
 
 .piece{
 	width:100%;
+}
+.title{
+font-size: 2em;
+text-align: left;
+color: rgba(56, 88, 187, 0.84);
+}
+
+.left{
+	text-align: left;
 }
 
 /*.img-blur{
