@@ -196,7 +196,7 @@ header{
 }
 
 .banner{
-	background: url("../images/banner-2.jpg") no-repeat ;
+ 	background: url("../images/banner-2.jpg") no-repeat ;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 700px;
@@ -236,7 +236,13 @@ padding: 1em;
 
 .me-info{
 	margin:0;
-	float:left;
+	text-align: center;
+}
+
+.me-skills{
+	background-color: #CAB6C2;
+	margin:0;
+	padding-left:10px;
 }
 
 @media only screen and (min-width: 38em) {
@@ -251,17 +257,17 @@ padding: 1em;
 /*porfolio contents*/
 
 .artwork{
-		background: url("../images/banner-2.jpg") no-repeat ;
-	background-size: cover;
-	background-attachment: fixed;
-
-/*  background-color: #9B8EAC;
-*/  float: left;
+	background-color: #E4EDEC;
+	float: left;
   /* padding: 1em; */
   width: 100%;
-  margin-top: 1em;
 
 }
+
+.work{
+	text-align: center;
+}
+
 
 .project{
 /*  color: rgba(50, 27, 84, 0.84);
@@ -309,8 +315,12 @@ color: rgba(56, 88, 187, 0.84);
 	padding: 1.5em;
 	overflow: hidden;
 	clear: both;
-	background-color:rgb(56, 48, 90);
+	background-color:#1B2035
 
+}
+
+.contact{
+	color:white;
 }
 
 .links{
