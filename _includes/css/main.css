@@ -316,8 +316,8 @@ color: rgba(56, 88, 187, 0.84);
 
 .lightbox img {
 	/** Pad the lightbox image */
-	max-width: 90%;
-	max-height: 80%;
+	max-width: 100%;
+	max-height: 90%;
 	margin-top: 2%;
 }
 
@@ -360,11 +360,17 @@ color: rgba(56, 88, 187, 0.84);
 .links{
 /*	display: -webkit-inline-box;
 */
-margin: .5em;
+/*margin: 5em;
+*/
+font-size: 2em;
+color:white;
+display: inline-block;
+margin:0;
+padding:1em;
 }
 
 .links img{
-	width:50px;
+	width:100px;
 }
 
 .links li{
