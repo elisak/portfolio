@@ -5,16 +5,17 @@ title: Pieces of work which are related to layouts
 meta: layouts that are related to typography
 priority: 2.0
 ---
-		<ul>
+
+		<ul class="">
 			<!-- portfolio = layout site.post = _posts/  -->
 
 		{% for portfolio in site.posts %}
 			<div class="project unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-4">
 
 			<li class="project">
-
+<a href="#img">
 				<img class="img-blur piece" src="{{site.baseurl}}/{{portfolio.img}}">
-
+</a>
 				<a href="">{{portfolio.title}}</a>
 
 				<p>{{portfolio.description}}</p>
@@ -25,3 +26,8 @@ priority: 2.0
 			{% endfor %}
 
 		</ul>
+
+
+<a href="#_" class="lightbox" id="img">
+  <img src="https://s3.amazonaws.com/gschierBlog/images/pig-big.jpg">
+</a>
