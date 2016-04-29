@@ -172,7 +172,7 @@ a:active,
 a:hover{
 	color:#7356A9;
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 
@@ -316,8 +316,8 @@ color: rgba(56, 88, 187, 0.84);
 
 .lightbox img {
 	/** Pad the lightbox image */
-	max-width: 100%;
-	max-height: 90%;
+	max-width: 90%;
+	max-height: 80%;
 	margin-top: 2%;
 }
 
@@ -330,7 +330,7 @@ color: rgba(56, 88, 187, 0.84);
 }
 
 
-
+/*
 .img-blur{
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
@@ -342,11 +342,11 @@ color: rgba(56, 88, 187, 0.84);
 .img-blur:hover{
 	-webkit-filter:blur(3px);
 }
-
+*/
 /*footer-contact contents*/
 
 .footer{
-	padding: 1.5em;
+	padding: 1em;
 	overflow: hidden;
 	clear: both;
 	background-color:#1B2035
@@ -362,7 +362,7 @@ color: rgba(56, 88, 187, 0.84);
 */
 /*margin: 5em;
 */
-font-size: 2em;
+font-size: 1em;
 color:white;
 display: inline-block;
 margin:0;
