@@ -4,9 +4,11 @@ title: Biography and Portfolio pieces of recent and past
 meta: A small sample of me and what I've done at school and during my free time
 priority: 1.0
 ---
-<div class="pull">
+<div class="unit">
 <a class="back-top unit-offset-s-1-2 " href="{{site.baseurl}}/#home"><img class="" src="{{site.baseurl}}/images/icons-01.svg"></a>
 </div>
+
+<div class="grid">
 	<section class="about-me ">
 
 	<a name="aboutme"></a>
@@ -24,10 +26,11 @@ priority: 1.0
 	</div>
 
 </section>
+</div>
 	<!-- SKILLS AND PROGRAMS -->
-
+<!--
 		<div class="me-skills unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1" alt="a list of my skills and programs I know how to use.">
-		<h2 class="yotta me-skills">SKILLS & PROGRAMS</h2>
+	<h2 class="yotta me-skills">SKILLS & PROGRAMS</h2>
 		<HR>
 			<ul class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
 				<li>Illustrator</li>
@@ -41,37 +44,37 @@ priority: 1.0
 				<li>JEKYLL</li>
 
 			</ul>
-		</div>
+		</div> -->
 
 	<!-- next section -->
 
-	<div class="artwork unit-pull-xs-0 ">
+	<div class="artwork grid ">
 		<a name="portfolio"></a>
-		<h2 class="zetta work">WORK</h2>
+		<h2 class="zetta work unit"></h2>
 
 		<hr>
 
 
-
+<div class="grid">
 		<ul class="grid">
 			<!-- portfolio = layout site.post = _posts/  -->
 
 		{% for portfolio in site.posts %}
-			<li class="left project  unit unit-xs-centered unit-s-1 unit-m-1-2 unit-l-1-2">
+			<li class="left project grid unit unit-s-1-2 unit-m-1-3 unit-l-1-4 unit-xl-1-4">
 
 				<img class="img-blur piece" src="{{site.baseurl}}/{{portfolio.img}}">
 
-				<h3 class="title">{{portfolio.title}}</h3>
+<!-- 					<h3 class="title">{{portfolio.title}}</h3>
 
-				<h6 >{{portfolio.meta}}</h6>
+			<h6 >{{portfolio.meta}}</h6>
 				<h6 class="label">Descrip:</h6>
 				<p >{{portfolio.description}}</p>
 				<h6 class="label">Programs:</h6>
-				<p >{{portfolio.tags}}</p>
+				<p >{{portfolio.tags}}</p> -->
 
 				</li>
 		{% endfor %}
 
 		</ul>
-
+</div>
 
